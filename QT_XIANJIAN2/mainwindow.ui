@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>399</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>399</width>
+    <height>365</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>399</width>
+    <height>365</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>50</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">武林高手</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>50</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">衣衫褴褛</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>50</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">腰缠万贯</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>50</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">皮糙肉厚</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Caslon Pro</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string notr="true">一键修改：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>281</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="inputMask">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>431</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>------------------------------------------------------------------</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>10</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">选择存档路径</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>511</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>------------------------------------------------------------------</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>100</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">体力上限：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>100</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">当前体力：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>130</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">当前真气：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>130</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">真气上限：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>170</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">    武术：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>200</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">    灵力：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>230</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">    防御：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>260</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">    身法：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>290</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">    吉运：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>100</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>130</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>170</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>200</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>230</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_9">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>100</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_10">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>130</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_7">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>260</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_8">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>290</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>200</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">当前金钱：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_11">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>200</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>121</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注意事项：请使用最初的武器装备！！！&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;使用说明：除物品数量外，所有数据最大值为9999，最小值为0。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;请在需要改写的地方填入相应数据。不需要的则不改动。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;物品处，所选物品将会产生在最后一个，请填写需要的数目。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;之后点击确定按钮，重新读档即可。-.-&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>230</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">物品：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_13">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>260</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>260</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">物品数量：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>290</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">确定修改</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_14">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>170</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>170</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">当前等级：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>230</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>观音符</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>圣灵符</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>金刚符</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>净衣符</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>灵心符</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>天师符</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>风灵符</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>雷灵符</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>水灵符</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>火灵符</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>土灵符</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>舍利子</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>玉菩提</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>银杏子</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>糯米</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>糯米糕</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>盐巴</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>茶叶蛋</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>鸡蛋</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>糖葫芦</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蜡烛</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>符纸</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>檀香</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>大蒜</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>黑狗血</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>酒</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>雄黄</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>雄黄酒</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>九节菖蒲</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>驱魔香</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>十里香</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>水果</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>烧肉</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>腌肉</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>还魂香</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>赎魂灯</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>孟婆汤</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>天香续命露</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>止血草</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>行军丹</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>金创药</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蟠果</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>紫菁玉蓉膏</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>鼠儿果</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>还神丹</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>龙涎草</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>灵山仙芝</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>雪莲子</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>天仙玉露</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>神仙茶</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>灵葫仙丹</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>试炼石</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>女娲石</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>八仙石</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蜂巢</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尸腐肉</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>毒蛇卵</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>毒蝎卵</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>毒蟾卵</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蜘蛛卵</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蜈蚣卵</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>鹤顶红</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>孔雀胆</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>血海棠</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>断肠草</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>醍醐香</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>忘魂花</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>紫罂粟</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>鬼枯</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>腹蛇涎</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蜂王蜜</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>雪蛤蟆</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>赤蝎粉</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>化尸水</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>迷魂香</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>九阴散</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>无影毒</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>三尸蛊</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>金蚕蛊</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>幻蛊</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>隐蛊</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>冰蚕蛊</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>火蚕蛊</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>食妖虫</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>灵蛊</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>爆烈蛊</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>碧血蚕</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蛊</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>赤血蚕</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>金蚕王</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>引路蜂</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>傀儡虫</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>梅花镖</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>袖里剑</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>透骨钉</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>雷火珠</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>毒龙砂</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>吸星锁</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>缠魂丝</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>捆仙绳</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>无影神针</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>血玲珑</string>
+     </property>
+    </item>
+   </widget>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>label_2</zorder>
+   <zorder>pushButton_5</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_12</zorder>
+   <zorder>lineEdit_2</zorder>
+   <zorder>lineEdit_3</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>lineEdit_5</zorder>
+   <zorder>lineEdit_6</zorder>
+   <zorder>lineEdit_9</zorder>
+   <zorder>lineEdit_10</zorder>
+   <zorder>lineEdit_7</zorder>
+   <zorder>lineEdit_8</zorder>
+   <zorder>label_13</zorder>
+   <zorder>lineEdit_11</zorder>
+   <zorder>textBrowser</zorder>
+   <zorder>label_14</zorder>
+   <zorder>lineEdit_13</zorder>
+   <zorder>label_15</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>label</zorder>
+   <zorder>lineEdit_14</zorder>
+   <zorder>label_16</zorder>
+   <zorder>comboBox</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>399</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_1">
+    <property name="title">
+     <string>仙剑修改器.1_2</string>
+    </property>
+   </widget>
+   <addaction name="menu_1"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
